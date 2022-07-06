@@ -1,0 +1,240 @@
+/*********************
+   Section index
+ ********************/
+
+ .div-purple {
+    background-color: $ColorMoradoDescuento;
+    color: $colorBlanco;
+    text-align: center;
+    padding: 0.8rem 0; 
+    h1{
+       
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 2rem;
+        margin: 0 auto;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-right: 0.15em solid #18bdec;
+        animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+
+    }
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+.menuFlex{
+    background-color:$colorMenuFoo;
+    align-items: center;
+    border-bottom: 1px solid $colorBlanco;
+    box-shadow: $colorBoxShadown 5px 0px 10px;
+            }
+      .logo {
+        color: $colorBlanco;
+        font-size: 25px;
+        font-weight: bold;   
+        padding-right: 10px;
+        padding-left: 2%;
+            }
+li{
+    &:hover {
+        background-color: $colorCuatro;
+        transition: 0.4s; 
+    }
+}
+input {
+  .form-control{
+      box-shadow: none;
+               }
+  .me-2{
+    box-shadow: none;
+   }
+}
+.btn {
+    color: $colorBlanco;
+}
+.btn-outline-success {
+    border-color: $colorBlanco;
+    border-width: 2px;    
+}      
+/************************************
+   Section sobre nosotros del index 
+ ************************************/
+.sobre-nosotros{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.sobre-nosotros-texto{
+    width: 50%;
+    text-align: justify ;
+    margin:80px;
+    line-height: 25px;
+}
+.sobre-nosotros-texto-title{
+    padding-bottom: 50px;
+    font-size: 10px;
+}
+#homeNosotros-texto {
+    width: 86%;
+    justify-items: center;
+    margin: 10% 3% 5% 10%;
+    font-size: 120%;
+    text-align: justify;
+    padding: auto;
+    }
+.homeTexto  {
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: $colorPorqueN;
+    justify-content:center ;
+    margin-top: 10px;
+}
+.img-thumbnail {
+    display: block;
+    margin:auto;
+    max-width: 80%;
+}
+/****************************************
+Section de PORQUE COMPRAR CON NOSOTROS
+****************************************/
+.homeP{
+    font-size: 1.2rem;
+    margin: 5% 5% 20% 5%;
+    text-align: justify;
+    justify-items: center;
+}
+.homeImg {
+    filter: drop-shadow(10px 10px 5px $dropShadow);
+    transition: 0.5s;
+        img:hover {
+            transform: scale(1.1, 1.1);
+        }
+} 
+.homeServicios-texto {
+    h2 {
+        margin: 1% 5% 1% 5%;
+        text-align: center;
+        color: $colorPorqueN;
+    }
+}
+.img-fluid{
+    display: block;
+    margin: auto;
+}
+/*******************************
+Section de productos destacados
+********************************/
+  .productosTitulo {
+            margin: 1% 5% 1% 5%;
+            color: $colorPorqueN;
+            text-align: center;  
+            font-size: 40px;      
+    }
+ img {
+    filter: drop-shadow(10px 10px 5px $dropShadow);
+    transition: 0.5s;
+        .homeProductosimg {
+            width: 100%;
+            filter: drop-shadow(10px 10px 5px $dropShadow);
+            transition: 0.10s;
+        }
+}
+.homeProductosimg {
+    img:hover {
+        transform: scale(0.9, 0.9);
+    }
+}
+.card{
+   margin-left: 1px !important;
+}
+.botonEstilo{
+    width: 9rem;
+    color: $colorBlanco;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: $colorMenuFoo;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    transition: 0.7s;
+    box-shadow: 0px 4px 4px $ColorBoxShadow2;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 35px ;
+        .botonEstilo:hover {
+            background-color: $colorBody;
+        }  
+}
+/****************
+EXTEND  BOTONES
+****************/
+.botonEstilo1{
+    @extend .botonEstilo;
+    background-color:  rgb(236, 177, 217);
+    position:absolute;
+    border-radius: 0.8rem;
+}
+.botonEstilo2{
+    @extend .botonEstilo;
+    background-color: $ColorBotonesRosa2;
+    position:absolute;
+    border-radius: 1rem;
+}
+.botonEstilo3{
+    @extend .botonEstilo;
+    background-color: $ColorBotonesRosa3;
+    position:absolute;
+    border-radius: 1.2rem;
+}
+/****************
+MIXIN 
+****************/
+
+@mixin estetica($color, $alinear, $letra) 
+    {
+    color:$color;
+    align-items: $alinear;
+    font-family: $letra; 
+}
+
+/**************************
+Fin de INDEX
+***************************/
+
+/**********************
+Section footer 
+**********************/
+footer {
+    width: 100%;
+    height: auto;
+    background-color: $colorMenuFoo;
+        .footer_redes img:hover {
+            transform: scale(1.1, 1.1);   
+        }
+        .cambioEstiloN {
+            color:$colorBlanco;
+        }
+}
+/******************
+Fin de footer
+*******************/
+
+@import"_color.scss";
+
+

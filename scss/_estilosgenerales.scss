@@ -1,0 +1,16 @@
+/*********************
+Estilos generales 
+***********************/
+@import"_color.scss";
+* {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    height: 100vh; /*para que sea en toda la pagina*/
+    background: $colorBody;
+    align-items: center;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+    z-index: 9999;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "destino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasselGOP/Tienda_OnixGlam_HasselOrtega-Aplicando-SASS-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasselGOP/Tienda_OnixGlam_HasselOrtega-Aplicando-SASS-/issues"
+  },
+  "homepage": "https://github.com/hasselGOP/Tienda_OnixGlam_HasselOrtega-Aplicando-SASS-#readme",
+  "description": ""
+}

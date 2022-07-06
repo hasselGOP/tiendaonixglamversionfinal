@@ -1,0 +1,96 @@
+/*******************
+     RESPONSIVE 
+ ******************/
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 1024px) {
+     
+  .card-text{
+      font-size:medium;
+  }
+}
+@media (min-width: 768px) and (max-width:1023px)
+  {
+      .imagenNosotros{
+          margin: auto;
+          padding-left: 5px;
+      }
+      .homeProductosimg{
+          width: 100%;
+      }
+      .card-text{
+          font-size: small;
+      }
+      .homeP {
+          font-size: medium;
+      }
+  }
+  @media (min-width: 717px) and (max-width: 767px){
+    .card {
+        height: 890px;;
+    }
+  }
+  @media (min-width: 484px) and (max-width: 716px){
+    .card {
+        height: 780px;;
+    }
+  }
+  @media (min-width: 405px) and (max-width: 483px){
+    .card {
+        height: 720px;;
+    }
+    .div-purple{
+        h1{
+            font-size: 15px;
+        }
+    }
+    .imagenCesta{ 
+        display: block;
+        margin:auto;  
+        width: 75%;
+        height: auto;
+    }
+    .pCarrito{
+        font-size: 30px;
+        margin-top: 15px;
+      }
+      .pSesion{
+        margin-top: 15px;
+        font-size: 16px;
+        
+      }
+}
+@media (min-width: 320px) and (max-width: 405px){
+    body{
+        overflow-x: hidden;
+        z-index: 9999;
+        margin: auto;
+    }
+
+    .div-purple{
+        h1{
+            font-size: 20px;
+        }
+    }
+    .homeTexto{
+        text-align: center;
+    }
+  /* Clase de carrito */
+  .imagenCesta{ 
+    display: block;
+    margin:auto;  
+    width: 75%;
+    height: auto;
+}
+  .pCarrito{
+    font-size: 20px;
+  }
+  .pSesion{
+    font-size: 10px;
+    
+  }
+/* Clase de tienda */
+
+}
+/*******************
+     FIN DE RESPONSIVE 
+ ******************/

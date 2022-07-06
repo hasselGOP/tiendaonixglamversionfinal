@@ -1,0 +1,83 @@
+/***************
+Section de Tienda
+******************/
+#productos {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: $colorPorqueN;
+}  
+.card {
+    height: 615px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-left: 70px;
+    text-align: center;
+    transition: all 0.20s; 
+}
+div{
+    .card-body{
+        h2{
+            font-size: 25px;
+            font-weight: 400;
+        }
+    } 
+}
+.card-text  {
+    text-align: justify;
+    font-size: 15px;
+}
+.div-estrellas {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center; }
+  
+.estrellas {
+        display: inline-block;
+        background-size: cover;
+        width: auto;
+        height: 1rem;
+        margin-right: 1.2rem; 
+        margin-bottom: .5rem;
+    }
+.corazon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     right: 1rem;
+    border-radius: 50%;
+    background: $colorBlanco;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover {
+        svg {
+            fill: $ColorRojo; 
+                 
+             }
+    }
+ }
+/****************
+      MAPAS 
+****************/
+$color: (
+    estilo1:  rgb(238, 142, 207),
+    estilo2: rgb(224, 82, 179),
+    estilo3: rgb(207, 37, 153)
+);
+/****************
+EACH con Mapas
+****************/
+@each $nombre, $valor in $color {
+    .boton-#{$nombre}{
+        background-color: $valor;
+        @extend .botonEstilo;
+        position:absolute;
+        border-radius: 1.3rem;
+    }
+}
+/***************
+Fin de Tienda
+****************/
+@import"_color.scss";

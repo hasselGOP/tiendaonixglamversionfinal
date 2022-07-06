@@ -1,0 +1,576 @@
+/* IMPORT */ /*********************
+   Section index
+ ********************/
+.div-purple {
+  background-color: #5f37b1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0.8rem 0;
+}
+.div-purple h1 {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2rem;
+  margin: 0 auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-right: 0.15em solid #18bdec;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.menuFlex {
+  background-color: #382c68;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.6) 5px 0px 10px;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 2%;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+}
+
+input .form-control {
+  box-shadow: none;
+}
+input .me-2 {
+  box-shadow: none;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+}
+
+.btn-outline-success {
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+/************************************
+   Section sobre nosotros del index 
+ ************************************/
+.sobre-nosotros {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sobre-nosotros-texto {
+  width: 50%;
+  text-align: justify;
+  margin: 80px;
+  line-height: 25px;
+}
+
+.sobre-nosotros-texto-title {
+  padding-bottom: 50px;
+  font-size: 10px;
+}
+
+#homeNosotros-texto {
+  width: 86%;
+  justify-items: center;
+  margin: 10% 3% 5% 10%;
+  font-size: 120%;
+  text-align: justify;
+  padding: auto;
+}
+
+.homeTexto {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #35008b;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.img-thumbnail {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+/****************************************
+Section de PORQUE COMPRAR CON NOSOTROS
+****************************************/
+.homeP {
+  font-size: 1.2rem;
+  margin: 5% 5% 20% 5%;
+  text-align: justify;
+  justify-items: center;
+}
+
+.homeImg {
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+  transition: 0.5s;
+}
+.homeImg img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.homeServicios-texto h2 {
+  margin: 1% 5% 1% 5%;
+  text-align: center;
+  color: #35008b;
+}
+
+.img-fluid {
+  display: block;
+  margin: auto;
+}
+
+/*******************************
+Section de productos destacados
+********************************/
+.productosTitulo {
+  margin: 1% 5% 1% 5%;
+  color: #35008b;
+  text-align: center;
+  font-size: 40px;
+}
+
+img {
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+  transition: 0.5s;
+}
+img .homeProductosimg {
+  width: 100%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+  transition: 0.1s;
+}
+
+.homeProductosimg img:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.card {
+  margin-left: 1px !important;
+}
+
+.botonEstilo, .boton-estilo3, .boton-estilo2, .boton-estilo1, .botonEstilo3, .botonEstilo2, .botonEstilo1 {
+  width: 9rem;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: #382c68;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  transition: 0.7s;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.11);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 35px;
+}
+.botonEstilo .botonEstilo:hover, .boton-estilo3 .botonEstilo:hover, .botonEstilo .boton-estilo3:hover, .boton-estilo3 .boton-estilo3:hover, .boton-estilo2 .botonEstilo:hover, .boton-estilo2 .boton-estilo3:hover, .botonEstilo .boton-estilo2:hover, .boton-estilo3 .boton-estilo2:hover, .boton-estilo2 .boton-estilo2:hover, .boton-estilo1 .botonEstilo:hover, .boton-estilo1 .boton-estilo3:hover, .boton-estilo1 .boton-estilo2:hover, .botonEstilo .boton-estilo1:hover, .boton-estilo3 .boton-estilo1:hover, .boton-estilo2 .boton-estilo1:hover, .boton-estilo1 .boton-estilo1:hover, .botonEstilo3 .botonEstilo:hover, .botonEstilo3 .boton-estilo3:hover, .botonEstilo3 .boton-estilo2:hover, .botonEstilo3 .boton-estilo1:hover, .botonEstilo .botonEstilo3:hover, .boton-estilo3 .botonEstilo3:hover, .boton-estilo2 .botonEstilo3:hover, .boton-estilo1 .botonEstilo3:hover, .botonEstilo3 .botonEstilo3:hover, .botonEstilo2 .botonEstilo:hover, .botonEstilo2 .boton-estilo3:hover, .botonEstilo2 .boton-estilo2:hover, .botonEstilo2 .boton-estilo1:hover, .botonEstilo2 .botonEstilo3:hover, .botonEstilo .botonEstilo2:hover, .boton-estilo3 .botonEstilo2:hover, .boton-estilo2 .botonEstilo2:hover, .boton-estilo1 .botonEstilo2:hover, .botonEstilo3 .botonEstilo2:hover, .botonEstilo2 .botonEstilo2:hover, .botonEstilo1 .botonEstilo:hover, .botonEstilo1 .boton-estilo3:hover, .botonEstilo1 .boton-estilo2:hover, .botonEstilo1 .boton-estilo1:hover, .botonEstilo1 .botonEstilo3:hover, .botonEstilo1 .botonEstilo2:hover, .botonEstilo .botonEstilo1:hover, .boton-estilo3 .botonEstilo1:hover, .boton-estilo2 .botonEstilo1:hover, .boton-estilo1 .botonEstilo1:hover, .botonEstilo3 .botonEstilo1:hover, .botonEstilo2 .botonEstilo1:hover, .botonEstilo1 .botonEstilo1:hover {
+  background-color: #f1e7f7;
+}
+
+/****************
+EXTEND  BOTONES
+****************/
+.botonEstilo1 {
+  background-color: rgb(236, 177, 217);
+  position: absolute;
+  border-radius: 0.8rem;
+}
+
+.botonEstilo2 {
+  background-color: rgb(228, 110, 190);
+  position: absolute;
+  border-radius: 1rem;
+}
+
+.botonEstilo3 {
+  background-color: rgb(226, 87, 182);
+  position: absolute;
+  border-radius: 1.2rem;
+}
+
+/****************
+MIXIN 
+****************/
+/**************************
+Fin de INDEX
+***************************/
+/**********************
+Section footer 
+**********************/
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #382c68;
+}
+footer .footer_redes img:hover {
+  transform: scale(1.1, 1.1);
+}
+footer .cambioEstiloN {
+  color: rgb(255, 255, 255);
+}
+
+/******************
+Fin de footer
+*******************/
+/***************
+Section de Tienda
+******************/
+#productos {
+  font-size: 45px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #35008b;
+}
+
+.card {
+  height: 615px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-left: 70px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+div .card-body h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.div-estrellas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.estrellas {
+  display: inline-block;
+  background-size: cover;
+  width: auto;
+  height: 1rem;
+  margin-right: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.corazon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 1rem;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.corazon:hover svg {
+  fill: #c72727;
+}
+
+/****************
+      MAPAS 
+****************/
+/****************
+EACH con Mapas
+****************/
+.boton-estilo1 {
+  background-color: rgb(238, 142, 207);
+  position: absolute;
+  border-radius: 1.3rem;
+}
+
+.boton-estilo2 {
+  background-color: rgb(224, 82, 179);
+  position: absolute;
+  border-radius: 1.3rem;
+}
+
+.boton-estilo3 {
+  background-color: rgb(207, 37, 153);
+  position: absolute;
+  border-radius: 1.3rem;
+}
+
+/***************
+Fin de Tienda
+****************/
+/***********************
+SECTION PAGINA CARRITO 
+**********************/
+.imagenCesta { /* Clase de carrito */
+  height: 400px;
+  width: 400px;
+  margin-left: 35vw;
+  margin-bottom: 50px;
+}
+
+.pCarrito {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin: auto;
+}
+
+.pSesion {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+/******************
+FIN DE  CARRITO
+******************/
+/****************
+SECTION PAGINA  mi cuenta
+******************/
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type=email] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type=password] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*******************
+Fin de MI CUENTA 
+*********************/
+/************************
+SECTION PAGINA  CONTACTO
+*************************/
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logoC {
+  text-align: center;
+  font-size: 3em;
+}
+
+.contactoWrapper {
+  box-shadow: 0 0 20px 0 rgba(121, 121, 121, 0.8);
+}
+.contactoWrapper .contactoWrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #9471d8;
+}
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-form form label {
+  display: block;
+}
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+.contact-form form .block {
+  grid-column: 1/3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.contact-form form button {
+  background: #6500c4;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #6500c4;
+  color: rgb(255, 255, 255);
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+/* CONTACT INFO */
+.contactoInfo {
+  background: #9471d8;
+}
+
+.contactoInfo h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+/*******************
+fin de contacto
+*******************/
+/*******************
+     RESPONSIVE 
+ ******************/
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 1024px) {
+  .card-text {
+    font-size: medium;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .imagenNosotros {
+    margin: auto;
+    padding-left: 5px;
+  }
+  .homeProductosimg {
+    width: 100%;
+  }
+  .card-text {
+    font-size: small;
+  }
+  .homeP {
+    font-size: medium;
+  }
+}
+@media (min-width: 717px) and (max-width: 767px) {
+  .card {
+    height: 890px;
+  }
+}
+@media (min-width: 484px) and (max-width: 716px) {
+  .card {
+    height: 780px;
+  }
+}
+@media (min-width: 405px) and (max-width: 483px) {
+  .card {
+    height: 720px;
+  }
+  .div-purple h1 {
+    font-size: 15px;
+  }
+  .imagenCesta {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: auto;
+  }
+  .pCarrito {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .pSesion {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 320px) and (max-width: 405px) {
+  body {
+    overflow-x: hidden;
+    z-index: 9999;
+    margin: auto;
+  }
+  .div-purple h1 {
+    font-size: 20px;
+  }
+  .homeTexto {
+    text-align: center;
+  }
+  /* Clase de carrito */
+  .imagenCesta {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: auto;
+  }
+  .pCarrito {
+    font-size: 20px;
+  }
+  .pSesion {
+    font-size: 10px;
+  }
+  /* Clase de tienda */
+}
+/*******************
+     FIN DE RESPONSIVE 
+ ******************/
+/*********************
+Estilos generales 
+***********************/
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh; /*para que sea en toda la pagina*/
+  background: #f1e7f7;
+  align-items: center;
+  padding-bottom: 40px;
+  overflow-x: hidden;
+  z-index: 9999;
+}
+
+/*# sourceMappingURL=destino.css.map */

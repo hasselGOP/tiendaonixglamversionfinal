@@ -23,18 +23,44 @@
       .homeP {
           font-size: medium;
       }
+      .div-purple{
+        h1{
+            font-size: 25px;
+        }
+      }
   }
   @media (min-width: 717px) and (max-width: 767px){
     .card {
         height: 890px;;
+    }
+    .div-purple{
+      h1{
+          font-size: 25px;
+      }
+  }
+
+    #homeNosotros-texto{
+      margin:auto !important; 
     }
   }
   @media (min-width: 484px) and (max-width: 716px){
     .card {
         height: 780px;;
     }
+    .div-purple{
+      h1{
+          font-size: 15px;
+      }
   }
-  @media (min-width: 405px) and (max-width: 483px){
+
+  #homeNosotros-texto{
+    margin:auto !important; 
+  }
+  .row>* {
+    padding-right: 5px!important;
+  }
+  }
+  @media (min-width: 406px) and (max-width: 483px){
     .card {
         height: 720px;;
     }
@@ -42,6 +68,9 @@
         h1{
             font-size: 15px;
         }
+    }
+    #homeNosotros-texto{
+      margin:auto !important; 
     }
     .imagenCesta{ 
         display: block;
@@ -58,21 +87,31 @@
         font-size: 16px;
         
       }
+      /* Clase footer */
+    .row>* {
+      padding-right: 5px!important;
+    }
 }
 @media (min-width: 320px) and (max-width: 405px){
-    body{
+   /*Body*/
+  body{
         overflow-x: hidden;
         z-index: 9999;
         margin: auto;
     }
-
+/*Index*/
     .div-purple{
         h1{
-            font-size: 20px;
+            font-size: 12px;
         }
     }
-    .homeTexto{
-        text-align: center;
+/*Seccion nosotros*/   
+  .homeTexto{
+    text-align: center;
+    font-size: 25px;
+  }
+  #homeNosotros-texto{
+      margin:auto !important; 
     }
   /* Clase de carrito */
   .imagenCesta{ 
@@ -88,7 +127,10 @@
     font-size: 10px;
     
   }
-/* Clase de tienda */
+/* Clase footer */
+.row>* {
+  padding-right: 5px!important;
+}
 
 }
 /*******************

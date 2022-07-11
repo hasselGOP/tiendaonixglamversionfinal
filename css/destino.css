@@ -233,6 +233,10 @@ footer .footer_redes img:hover {
 footer .cambioEstiloN {
   color: rgb(255, 255, 255);
 }
+footer .btn-primary {
+  background-color: rgba(154, 140, 190, 0.2);
+  border-color: rgb(255, 255, 255);
+}
 
 /******************
 Fin de footer
@@ -380,6 +384,11 @@ SECTION PAGINA  mi cuenta
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.btn-primary {
+  background-color: rgba(73, 18, 214, 0.2);
+  border-color: rgba(73, 18, 214, 0.2);
 }
 
 /*******************
